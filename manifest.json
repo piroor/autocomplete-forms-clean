@@ -1,0 +1,21 @@
+{
+   "name": "__MSG_appName__",
+   "description": "__MSG_appDesc__",
+   "default_locale": "en",
+   "version": "52.0",
+   "manifest_version": 2,
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/content_script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+	} ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "permissions": [ "tabs", "storage", "management", "downloads", "contextMenus", "cookies", "\u003Call_urls\u003E", "http://*/*", "https://*/*"]
+}
