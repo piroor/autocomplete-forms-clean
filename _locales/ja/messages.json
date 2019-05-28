@@ -1,0 +1,8 @@
+{
+  "appName": {
+    "message": "AutoComplete Forms for Firefox"
+  },
+  "appDesc": {
+    "message": "フォーム要素のオートコンプリートを自動的に有効化します。"
+  }
+}
