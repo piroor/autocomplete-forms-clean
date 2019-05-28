@@ -14,5 +14,11 @@
       "16": "images/icon16.png",
       "48": "images/icon48.png"
    },
-   "permissions": [ "http://*/*", "https://*/*"]
+   "permissions": [ "http://*/*", "https://*/*"],
+   "applications": {
+     "gecko": {
+       "id": "autocomplete-forms-clean@piro.sakura.ne.jp",
+       "strict_min_version": "52.0"
+     }
+   }
 }
