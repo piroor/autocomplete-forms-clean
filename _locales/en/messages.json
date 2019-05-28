@@ -1,8 +1,8 @@
 {
   "appName": {
-    "message": "AutoComplete Forms for Firefox"
+    "message": "AutoComplete Forms Clean"
   },
   "appDesc": {
-    "message": "Enable AutoComplete for Form elements automatically."
+    "message": "Enable AutoComplete for Form elements automatically. (Turns 'autocomplet=\"off\"' forms to 'autocomplet=\"on\"'.)"
   }
 }
